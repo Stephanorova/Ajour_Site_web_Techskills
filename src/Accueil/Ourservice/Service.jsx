@@ -11,7 +11,7 @@ const ServiceItem = ({ text }) => (
 
 const Service = () => {
   return (
-    <div className="flex flex-col md:flex-row max-w-6xl mx-auto bg-white p-8 border border-purple-500 ml-[80px] ml-[16rem] gap-[1.5rem]">
+    <div className="flex flex-col md:flex-row max-w-6xl mx-auto bg-white p-8 border border-purple-500 ml-[16rem] gap-[1.5rem]">
     <div className="imagegauche">
       <img
         src="/image/bonjour.jpg"
