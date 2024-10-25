@@ -1,0 +1,108 @@
+.home{
+    background: url("../../public/image/font.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 200vh;
+    padding-top: 16%;
+    padding-right: 50px;
+    
+}
+.home .row{
+    padding: 50px;
+    margin-left: 22%;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.home .row h1:nth-child(1){
+    display: flex;
+    align-items: center;
+    color: #8b1900;
+    font-size: 38px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 1rem;
+}
+.home .row h1:nth-child(2){
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 1rem;
+    font-weight: bold;
+}
+.home .row p{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    line-height: 2px;
+}
+.home .row button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #f9c231;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.souhome{
+    margin-top: 35%;
+}
+
+@media all and (max-width: 768px) {
+    .home{
+        background-position: -900px;
+        margin-top: 5%;
+        height: 90vh;
+    }
+    .home .row{
+        position: absolute;
+        width: 100%;
+        right: 40px;
+        top: 30%;
+    
+     hr{
+        width: 235px;
+     }
+    }
+    .home .row h1{
+        color: black;
+        display: flex;
+        gap: 10px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+    
+        img{
+            width: 70px;
+        }
+       
+    }
+    .home .row p{
+        color: rgb(213, 213, 213);
+        font-size: 18.5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 20px;
+    }
+    .souhome{
+        margin-top: 60%;
+    }
+}
+
+
+
+
+
+
+

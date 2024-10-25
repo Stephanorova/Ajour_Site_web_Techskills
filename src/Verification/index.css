@@ -1,0 +1,103 @@
+
+.verification{
+    background-image: url("../../public/image/cours.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 200vh;
+    padding-top: 18%;
+    padding-right: 50px;
+    
+}
+.verification .row{
+    padding: 50px;
+    margin-left: 22%;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.verification .row h1:nth-child(1){
+    display: flex;
+    align-items: center;
+    color: #f9c231;
+    font-size: 43px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 1rem;
+}
+.verification .row h1:nth-child(2){
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 1rem;
+    font-weight: bold;
+}
+.verification .row p{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    line-height: 2px;
+}
+.verification .row button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #f9c231;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.souverification{
+    margin-top: 35%;
+}
+
+
+@media all and (max-width: 768px) {
+    .verification{
+        background-position: -600px;
+        margin-top: 5%;
+        height: 90vh;
+    }
+    .verification .row{
+        position: absolute;
+        width: 100%;
+        right: 40px;
+        top: 30%;
+    
+     hr{
+        width: 150px;
+     }
+    }
+    .verification .row h1{
+        color: black;
+        display: flex;
+        gap: 10px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+    
+        img{
+            width: 70px;
+        }
+       
+    }
+    .verification .row p{
+        color: #D1232A;
+        font-size: 18.5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 20px;
+    }
+    .souverification{
+        margin-top: 60%;
+    }
+}

@@ -1,0 +1,6 @@
+
+.imagegauche img{
+    height: 345px;
+    width: 350px;
+    object-fit: cover;
+}

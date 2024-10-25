@@ -1,0 +1,23 @@
+.slide{
+    width: 100%;
+    height: 80vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.imagedroite img{
+    width: 380px;
+    height: 350px;
+    margin-left: 2rem;
+}
+
+.bouton{
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    background-color: #f9c231;
+}
