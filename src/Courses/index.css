@@ -10,6 +10,7 @@
     height: 200vh;
     padding-top: 14%;
     padding-right: 50px;
+
     
 }
 .Coursfont .row{
@@ -18,8 +19,9 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 100%;
-    height: 350px;
+    width: 80%;
+    height: 400px;
+
 
     h1{
         font-weight: 200;
@@ -37,15 +39,20 @@
 
 .bouttonCours{
     width: 60vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    margin: auto;
     padding: 10px;
     margin-left: 6.5rem;
+}
+.haute{
+    display: flex;
+    gap: 1rem;
+}
+.centre{
+    display: flex;
+    gap: 1rem;
+}
+.bas{
+    display: flex;
+    gap: 1rem;
 }
 .bouttonCours .courschoix{
     width: 280px;
@@ -61,16 +68,16 @@
  }
  
 
- .Coursfont label{
+.buttons{
     width: 150px;
     height: 40px;
     background-color: #f9c231;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    left: 22%;
-    margin-top: 30px;
+    margin-left: 20rem;
+    border: none;
+    margin-top: -80px;
  }
 
 

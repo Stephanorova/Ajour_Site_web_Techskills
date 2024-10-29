@@ -1,51 +1,14 @@
 import { Link } from 'react-scroll'
 import './index.css'
 import SousCourse from './SousCours/SousCourse'
-import { useHistory } from 'react-router-dom'
 
-let bouttonCours = [
-  {
-    id: 1,
-    title : 'ICTNE TELECOM  →'
-  },
-  {
-    id: 2,
-    title : 'LCCTNE TELECOM →'
-  },
-  {
-    id: 3,
-    title : 'Work at Height and Fall Protection (WAH) →'
-  },
-  {
-    id: 4,
-    title : 'Electrical Safety and Authorization (ESA) →'
-  },
-  {
-    id: 5,
-    title : 'Defensive Driving (DD) →'
-  },
-  {
-    id: 6,
-    title : 'Fire Safety (FS) →'
-  },
-  {
-    id: 7,
-    title : 'Risk Analysis (RA) →'
-  },
-  {
-    id: 8,
-    title : 'Rope Rigging & Lifting →'
-  },
-  {
-    id: 9,
-    title : 'Fall Protection & Rescue (FPR)  →'
-  },
-]
+
+
 
 
 const Courses = () => {
    
-  const history = useHistory()
+
  
   return (
     <>
@@ -54,17 +17,42 @@ const Courses = () => {
             <h1>Get started now!</h1>
             <p>Choose your course:</p>
              <div className="bouttonCours">
-                {
-                  bouttonCours.map((val) => {
-                    return(
-                    <div className='courschoix' key={val.id} >
-                      <span>{val.title}</span>
-                    </div>
-                  )})
-                }
+              <div className="haute">
+             <div className='courschoix'>
+                      <span>ICTNE TELECOM  →</span>
+              </div>
+              <div className='courschoix'>
+                      <span>LCCTNE TELECOM →</span>
+              </div>
+              <div className='courschoix'>
+                      <span>Work at Height and Fall Protection (WAH) →</span>
+              </div>
+              </div>
+              <div className="centre">
+              <div className='courschoix'>
+                      <span>Electrical Safety and Authorization (ESA) →</span>
+              </div>
+              <div className='courschoix'>
+                      <span>Defensive Driving (DD) →</span>
+              </div>
+              <div className='courschoix'>
+                      <span>Fire Safety (FS) →</span>
+              </div>
+              </div>
+              <div className="bas">
+              <div className='courschoix'>
+                      <span>Risk Analysis (RA) →</span>
+              </div>
+              <div className='courschoix'>
+                      <span>Rope Rigging & Lifting →</span>
+              </div>
+              <div className='courschoix'>
+                      <span>Fall Protection & Rescue (FPR)  →</span>
+              </div>
+              </div>
              </div>
         </div>
-            <label>Learn More</label>
+             <button className='buttons'>Learn more</button>
     </div>
     <div className="sousCourses">
        <SousCourse/>
