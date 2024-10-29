@@ -13,12 +13,12 @@
     
 }
 .home .row{
-    padding: 50px;
+    padding: 30px;
     margin-left: 22%;
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 350px;
+    height: 320px;
     background-color: rgba(0, 0, 0, 0.2);
 }
 .home .row h1:nth-child(1){

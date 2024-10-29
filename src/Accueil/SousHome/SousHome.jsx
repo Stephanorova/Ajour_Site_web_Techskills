@@ -26,6 +26,7 @@ const SousHome = () => {
             </div>
           </div>
           <div className="menuCenter">
+            <div className="menucentertop">
              <div className="contactes">
                <label> <i class="fa fa-plus" aria-hidden="true"></i></label>
                 <div>
@@ -40,6 +41,8 @@ const SousHome = () => {
                 <p>Calandar</p>
                 </div>
              </div>
+             </div>
+             <div className="menucenterbottom">
              <Link to='about' spy={true} smooth={true} activeClass="activeClass">
              <div className="calandare">
              <label> <i class="fa fa-plus" aria-hidden="true"></i></label>
@@ -55,6 +58,7 @@ const SousHome = () => {
                 <span>View all our</span>
                 <p>courses</p>
                 </div>
+             </div>
              </div>
           </div>
           <div className="menuRigth">
