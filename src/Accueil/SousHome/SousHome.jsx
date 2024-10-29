@@ -23,7 +23,7 @@ const SousHome = () => {
             <div className="news" onClick={()=>history.push("/news")}>
                 <span>NEWS</span>
                 <div className="flesh">
-                  <i class="fa fa-arrow-right"/>
+                  <span><i class="fa fa-arrow-right"/></span>
                </div>
             </div>
           </div>
