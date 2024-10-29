@@ -7,6 +7,7 @@ const SousNews = () => {
 
   return (
     <div className="souscours">
+      <div className="bbc">
     <div className="flex flex-col bg-white p-6 max-w-6xl mx-auto">
       <div className="flex flex-col md:flex-row">
         {/* Left Column */}
@@ -64,6 +65,7 @@ const SousNews = () => {
           </p>
         </div>
       </div>
+    </div>
     </div>
     <div className="technicien">
     <div className="flex flex-col md:flex-row  p-8 max-w-9xl mx-auto">

@@ -59,11 +59,12 @@
     margin-top: 35%;
 }
 
-@media all and (max-width: 768px) {
-    .cours{
+@media screen and (max-width: 768px) {
+    .newsfont{
         background-position: right;
         margin-top: 10%;
-        height: 100vh;
+        height: 35vh;
+        width: 100%;
     }
     .cours .row{
         position: absolute;
@@ -94,7 +95,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin-top: 20px;
     }
-    .souscour{
-        margin-top: 60%;
+    .sousNews{
+        margin-top: 70%;
     }
 }

@@ -27,19 +27,10 @@ body{
   gap: 2rem;
   align-items: center;
 }
-@media all and (max-width: 768px) {
-  
-.container{
-  max-width: 100%;
-  margin: auto;
- 
-}
-.flexSB{
-  display: flex;
-  justify-content: end;
-  gap: 1rem;
-  align-items: center;
-}
+@media screen and (max-width: 768px) {
+   .chervro{
+    display: none;
+   }
 }
 
 

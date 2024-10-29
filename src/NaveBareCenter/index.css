@@ -136,7 +136,7 @@
   .toggle{display: none;}
 
 
-  @media all and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .nav {
       background-color: #313236;
       color: white;
@@ -183,47 +183,5 @@
       position: relative;
       margin-left: -12px;
     }
-    .mainBar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 0;
-    }
-    .brandName {
-      display: none;
   
-    }
-    .subTitle {
-      display: none;
-    }
-    .navLinks a{
-      display: none;
-    }
-    
-  
-    .toggle{
-        display: block;
-        background: none;
-        color: #fff;
-        font-size: 30px;
-        position: absolute;
-        left: 55px;
-        border: none;
-        cursor: pointer;
-    }
-     .mobil-nave{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        cursor: pointer;
-        justify-content: center;
-        gap: 1.5rem;
-        padding: 10px;
-        top: 7.5rem;
-        left: 0;
-        width: 30%;
-        height: 30vh;
-        background-color:  #555;
-    }
 }

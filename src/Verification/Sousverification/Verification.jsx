@@ -33,7 +33,7 @@ const Verification = () => {
     </h1>
   </div>
    <div className='cadrage' >
-      <form onSubmit={handleVerification} style={{ marginBottom: '10px' }}>
+      <form onSubmit={handleVerification} style={{ marginBottom: '10px' }} >
         <TextField
           fullWidth
           label="Certificate Number"
@@ -43,7 +43,7 @@ const Verification = () => {
           style={{ marginBottom: '20px' }}
           required
         />
-        <Button variant="contained" color="primary" type="submit">
+        <Button variant="contained" color="primary" type="submit" className='boutton'>
           check
         </Button>
       </form>

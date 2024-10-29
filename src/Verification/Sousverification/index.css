@@ -40,7 +40,7 @@
 }
 
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .verifie{
         width: 100%;
         height: auto;
@@ -54,34 +54,34 @@
     }
     .titrehaute{
         display: flex;
-        justify-content:center;
+        flex-direction: column;
         margin-top: 10%;
-
-        span{
-          display: none;
-        }
+        margin-left: -180px;
+    
         h1{
             font-size: 15px;
-            color: #D1232A;
+            color: #000080;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
     }
-    .cadre{
-        max-width:  100%; 
+    .cadrage{
+        padding :20px;
+        max-width:  600px; 
         margin : 0 auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-      align-items: center;
+    
         form{
             margin-top: 4rem;
     
             Button{
                 display: flex;
-                margin-left: 1px;
+                margin-left: 20rem;
             }
         }
     
     }
+
     footer{
         display: none;
     }

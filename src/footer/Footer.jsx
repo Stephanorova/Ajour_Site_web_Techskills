@@ -5,6 +5,7 @@ const Footer = () => {
 
 
   return (
+    <div className="footer">
     <div className="bg-blue-950 text-white p-20 flex justify-between items-center">
     <div className="space-y-6">
       <div>
@@ -43,8 +44,7 @@ const Footer = () => {
         <span>All Rights reserved to TechSkills Learning Institute</span>
       </div>
     </div>
-    
-     
+  </div>
   </div>
   )
 }

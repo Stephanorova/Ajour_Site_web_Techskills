@@ -11,6 +11,7 @@ const ServiceItem = ({ text }) => (
 
 const Service = () => {
   return (
+    <div className="service">
     <div className="flex flex-col md:flex-row max-w-6xl mx-auto bg-white p-8 border border-purple-500 ml-[16rem] gap-[1.5rem]">
     <div className="imagegauche">
       <img
@@ -33,6 +34,7 @@ const Service = () => {
         <ServiceItem text="Program tailored to your needs and availability" />
       </div>
     </div>
+  </div>
   </div>
   )
 }

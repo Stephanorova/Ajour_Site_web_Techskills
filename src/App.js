@@ -32,12 +32,14 @@ function App() {
            </Switch>
            <Footer/>
       </BrowserRouter>
+      <div className='chervro'>
       <span
         className="fixed bottom-4 right-4 bg-gray-300 text-white p-2 "
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
         <ChevronUp size={24} />
       </span>
+    </div>
     </div>
   );
 }
