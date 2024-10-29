@@ -5,7 +5,64 @@ import "slick-carousel/slick/slick-theme.css";
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { dataCenter } from "./Data2";
 
-
+const imageSlider = [
+  {
+    id:1,
+    image:"/image/1.jpg"
+  },
+  {
+    id:2,
+    image:"/image/2.jpg"
+  },
+  {
+    id:3,
+    image:"/image/3.jpg"
+  },
+  {
+    id:4,
+    image:"/image/4.jpg"
+  },
+  {
+    id:5,
+    image:"/image/5.jpg"
+  },
+  {
+    id:6,
+    image:"/image/6.jpg"
+  },
+  {
+    id:7,
+    image:"/image/7.jpg"
+  },
+  {
+    id:8,
+    image:"/image/8.jpg"
+  },
+  {
+    id:9,
+    image:"/image/9.jpg"
+  },
+  {
+    id:10,
+    image:"/image/10.jpg"
+  },
+  {
+    id:11,
+    image:"/image/11.jpg"
+  },
+  {
+    id:12,
+    image:"/image/12.jpg"
+  },
+  {
+    id:13,
+    image:"/image/13.jpg"
+  },
+  {
+    id:14,
+    image:"/image/14.jpg"
+  },
+]
 
 const SousCourse = () => {
 
@@ -253,7 +310,7 @@ const SousCourse = () => {
 <div className="w-[60vw] mx-auto px-8 py-12 relative">
   <h1 className="">Archives</h1>
    <Slider {...settings1}>
-      {dataCenter.map((training) => (
+      {imageSlider.map((training) => (
         <div key={training.id} className="px-5 py-8">
           <div className="overflow-hidden">
             <div className="aspect-square relative ">
