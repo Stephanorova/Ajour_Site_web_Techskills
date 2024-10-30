@@ -36,13 +36,14 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    
+    <div className="footerrigth">
     <div className="flex flex-col items-center">
         <img src="/image/Logo.png" alt="TechSkills Logo" className="footerLogo" />
       <div className="right-8 flex items-center text-sm">
         <Globe size={16} className="mr-2" />
         <span>All Rights reserved to TechSkills Learning Institute</span>
       </div>
+    </div>
     </div>
   </div>
   </div>

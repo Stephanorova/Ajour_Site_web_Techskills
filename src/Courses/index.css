@@ -86,41 +86,58 @@
 }
 
 @media screen and (max-width: 768px) {
-    .cours{
-        background-position: right;
-        margin-top: 10%;
-        height: 100vh;
-    }
-    .cours .row{
+    .newsfont{
+        background: url("../../public/image/FontNews.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left;
         position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
         width: 100%;
-        right: 40px;
-        top: 30%;
-    
-     hr{
-        width: 155px;
-     }
+        height: 100vh;
+        
     }
-    .cours .row h1{
-        color: white;
+    .Coursfont .row{
+        padding: 50px;
         display: flex;
+        flex-direction: column;
         gap: 10px;
-        font-size: 25px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 100;
-    
-        img{
-            width: 70px;
+        width: 120vw;
+        height: auto;
+        margin-left: -6rem;
+        margin-top: 7rem;
+        h1{
+            font-weight: 200;
+            margin-left: 8rem;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
         }
-       
+        p{
+           font-family: 'Times New Roman', Times, serif;
+           margin-left: 8rem;
+           font-size: 16px;
+           color: rgb(59, 59, 59);
+        }
     }
-    .cours .row p{
-        color: rgb(213, 213, 213);
-        font-size: 18.5px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: 20px;
+    .bouttonCours{
+        display: none;
     }
-    .souscour{
-        margin-top: 60%;
+    .buttons{
+        width: 100px;
+        height: 30px;
+        background-color: #f9c231;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5rem;
+        border: none;
+        margin-top: -20px;
+        font-size: 12px;
+     }
+
+    .sousCourses{
+        margin-top: 100%;
     }
 }

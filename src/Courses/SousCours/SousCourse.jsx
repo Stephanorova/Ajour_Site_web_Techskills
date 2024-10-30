@@ -87,7 +87,6 @@ const SousCourse = () => {
     
       // Configuration du slider
       const settings = {
-        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
@@ -104,7 +103,7 @@ const SousCourse = () => {
           {
             breakpoint: 768,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
             }
           },
           {
@@ -117,31 +116,27 @@ const SousCourse = () => {
       };
 
       var settings1 = {
-        dots: true,
         infinite: true,
-        speed: 400,
+        speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 4,
-        autoplay:true,
-        appendDots: (dots)=>{
-          return <ul style={{margin:"-10px"}}>{dots}</ul>
-        },
+        slidesToScroll: 1,
+        autoplay: true,
         responsive: [
           {
             breakpoint: 1024,
-            settings1: {
+            settings: {
               slidesToShow: 3,
             }
           },
           {
             breakpoint: 768,
-            settings1: {
-              slidesToShow: 2,
+            settings: {
+              slidesToShow: 1,
             }
           },
           {
             breakpoint: 640,
-            settings1: {
+            settings: {
               slidesToShow: 1,
             }
           }
@@ -150,22 +145,25 @@ const SousCourse = () => {
     
   return (
     <div className="souscours">
-    <div className="w-[61vw] mx-auto px-8 py-12 relative">
+    <div className="w-[61vw] mx-auto px-1 py-12 relative">
     <Slider {...settings} >
       {dataCenter.map((training) => (
         <div key={training.id} className="px-4" >
-          <div className="bg-gray-100 w-[200px] h-[300px] overflow-hidden" id="course">
+          <div className="imageslide">
+          <div className="bg-gray-100 w-[200px] h-[260px] overflow-hidden">
             <div className="aspect-square relative">
               <img
                 src={training.image}
                 alt={training.titre}
-                className="w-[200px] h-[200px] object-cover"
               />
             </div>
+            <div className="titreCours">
             <div className="p-4">
               <h3 className="text-center text-navy-900 font-medium text-xs h-[50px]">
                 {training.titre}
               </h3>
+            </div>
+            </div>
             </div>
           </div>
         </div>
@@ -307,7 +305,7 @@ const SousCourse = () => {
 </div>
 </div>
 <div className="slideArchive">
-<div className="w-[60vw] mx-auto px-8 py-12 relative">
+<div className="w-[60vw] mx-auto px-4 py-12 relative">
   <h1 className="">Archives</h1>
    <Slider {...settings1}>
       {imageSlider.map((training) => (

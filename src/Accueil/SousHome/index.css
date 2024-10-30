@@ -264,7 +264,15 @@ label{
         font-size: 12px;
     }
 }
-
+.slide{
+    width: 100%;
+    height: 80vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
 
 .ourvalue{
   
@@ -275,6 +283,16 @@ label{
         align-items: center;
         justify-content: center;
     
+}
+
+.service{
+    width: 100%;
+    height: 80vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15rem;
 }
   
 .referenc{
@@ -295,24 +313,21 @@ label{
     .menue{
         display: flex;
         flex-direction: column;
-        position: relative;
+        margin-top: 2rem;
     }
     .menuLeft{
+        flex: 0;
         height: auto;
-    
+        display: flex;
+        margin-left: -10px;
     
     .news{
         background-color: brown;
-        justify-content: space-between;
         display: flex;
         flex-direction: column;
-        padding: 20px;
-        margin-top: 55px;
-        width: 370px;
-        position: absolute;
-        top: 0;
-        left: -12rem;
-        height: 10%;
+        padding: 30px;
+        width: 300px;
+        height: 30vh;
         cursor: pointer;
         border-radius: 10px;
         color: #fff;
@@ -320,38 +335,33 @@ label{
     
        
     }
-    .news i{
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            border: 2px solid white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+    label{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 1px solid white;
+        border-radius: 50%;  
+        position: absolute;
+        margin-top: 15%;
+    
+        i{
+            margin-top: 10px;
+        }
+    
     }
     }
     .menuCenter{
-        position: relative;
-        width: 100%;
+        flex: 0;
         display: flex;
         flex-direction: column;
-        margin-top: 10rem;
-        margin-left:-18.5rem;
+        gap: 1rem;
+        margin-top: -0.2rem;
+        margin-left: -0.8rem;
     }
-    .menuRigth{
-        width: 100%;
-        position: relative;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-left:-18.5rem;
-    }
-    .referenc{
-        display: none;
-    }
-
     .menuCenter .contactes{
-        width: 370px;
+        width: 300px;
         height: 180px;
         color: #fff;
         display: flex;
@@ -369,7 +379,7 @@ label{
             text-align: center;
             justify-content: center;
             cursor: pointer;
-            margin-left: 17rem;
+            margin-left: 14rem;
             border: 1px solid white;
             border-radius: 50%;
             background-color: #fff;
@@ -381,7 +391,7 @@ label{
         }
     }
     .menuCenter .training{
-        width: 370px;
+        width: 300px;
         height: 180px;
         color: black;
         display: flex;
@@ -398,7 +408,7 @@ label{
             height: 20px;
             text-align: center;
             justify-content: center;
-            margin-left: 17rem;
+            margin-left: 14rem;
             cursor: pointer;
             border: 1px solid #000080;
             border-radius: 50%;
@@ -411,7 +421,7 @@ label{
         }
     }
     .menuCenter .calandare{
-        width: 370px;
+        width: 300px;
         height: 180px;
         cursor: pointer;
         color: #000233;
@@ -428,7 +438,7 @@ label{
             height: 20px;
             text-align: center;
             justify-content: center;
-            margin-left: 17rem;
+            margin-left: 14rem;
             cursor: pointer;
             border: 1px solid #ffffff;
             border-radius: 50%;
@@ -441,7 +451,7 @@ label{
         }
     }
     .menuCenter .view{
-        width: 370px;
+        width: 300px;
         height: 180px;
         color: #fff;
         display: flex;
@@ -458,7 +468,7 @@ label{
             height: 20px;
             text-align: center;
             justify-content: center;
-            margin-left: 17rem;
+            margin-left: 14rem;
             cursor: pointer;
             border: 1px solid #000080;
             border-radius: 50%;
@@ -469,11 +479,21 @@ label{
             color: #000080;
             font-size: 12px;
         }
+    }
+    .menuRigth{
+        flex: 0;
+        height: auto;
+        display: flex;
+        margin-left: 40px;
+        margin-top: -5px;
+    }
+    .blockmenu{
+        display: flex;
+        flex-direction: column;
     }
     .blockmenu .blog{
-        width: 370px;
+        width: 300px;
         height: 180px;
-        margin-top: 13px;
         color: #fff;
         display: flex;
         cursor: pointer;
@@ -489,7 +509,7 @@ label{
             height: 20px;
             text-align: center;
             justify-content: center;
-            margin-left: 17rem;
+            margin-left: 14rem;
             cursor: pointer;
             border: 1px solid #000080;
             border-radius: 50%;
@@ -501,11 +521,10 @@ label{
             font-size: 12px;
         }
     }
-    
     .blockmenu .story{
         background: url("../../../public/image/menuback.jpg");
+        width: 300px;
         height: 180px;
-        width: 370px;
         background-position: center;
         background-size: cover;
         border-radius: 10px;
@@ -522,7 +541,7 @@ label{
             height: 20px;
             text-align: center;
             justify-content: center;
-            margin-left: 17rem;
+            margin-left: 14rem;
             cursor: pointer;
             border: 1px solid #000080;
             border-radius: 50%;
@@ -534,5 +553,33 @@ label{
             font-size: 12px;
         }
     }
+    .slide{
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ourvalue{
+  
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     
+}
+.service{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.referenc{
+    display: none;
+}
 }

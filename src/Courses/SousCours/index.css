@@ -4,7 +4,11 @@
     padding-top: 8rem;
     background-color: #FFFFFF;
 }
-
+.imageslide img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
 .calandar{
     margin-top: 15rem;
     height: 80vh;
@@ -77,5 +81,52 @@
         font-size: 30px;
         color: brown;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .imageslide img{
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .titreCours h3{
+        display: flex;
+        margin-top: -20px;
+        font-size: 10px;
+    }
+    .calandar{
+        margin-top: 7rem;
+        height: auto;
+        background-color: #FFFFFF;
+    }
+    .nosCalandrier{
+        display: flex;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        gap: 50px;
+        flex-direction: column;
+    
+        h1{
+            color: brown;
+            margin-left: 4rem;
+            font-size: 15px;
+        }
+    }
+    .cadre{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .cadreLeft{
+       display: none;
+    }
+    .cadreRigth{
+        width: 100%;
+        margin-left: -3rem;
+        height: auto;
     }
 }

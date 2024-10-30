@@ -169,51 +169,72 @@
  }
 
  @media screen and (max-width: 768px) {
-    .iconvaluesRigth .icone4:hover{
-        background-color: #ffff;
+    .values{
+        height: auto;
+        width: 100%;
+        background-color: #e4e4e4;
+    }
+    .valuesBlock{
+        display: flex;
+        height: 100%;
+    }
+    .valueleft{
+      display: none;
+    }
+    .titreValues{
+        width: 100%;
+        height: 25vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 90%;  
-        width: 100%; 
+        font-size: 15px;
+        color: #000080;
+    }
+    .valueRigth{
+        display: flex;
+        flex-direction: column;
+    }
+    .iconValues{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .iconvaluesLeft{
+        display: flex;
+        flex-direction: column;
         cursor: pointer;
-     
+    }
+    .iconvaluesLeft .icone1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #8b1900;
+        border-bottom: 1px solid gray;
+        height: 100%;   
+    
         img{
-         opacity: 0;
+            width: 80px;
         }
-     
-        &::after{
-         content: "Integrety and Exelence";
-         font-size: 26px;
-         margin-right: 115px;
+    }
+    .iconvaluesLeft .icone3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #8b1900;
+        cursor: pointer;
+        height: 100%;   
+    
+        img{
+            width: 60px;
         }
-     }
-     .iconvaluesRigth .icone2:hover{
-         background-color: #ffff;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         height: 90%;  
-         width: 100%; 
-         cursor: pointer;
-      
-         img{
-          opacity: 0;
-         }
-      
-         &::after{
-          content: "Quality training & Conformities";
-          font-size: 26px;
-          margin-right: 115px;
-         }
-      }
-      .iconvaluesLeft .icone3:hover{
+    }
+    .iconvaluesLeft .icone3:hover{
         background-color: #ffff;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 90%;  
-        width: 100%;  
+        height: 100%;   
         cursor: pointer;
      
         img{
@@ -222,8 +243,8 @@
      
         &::after{
          content: "Adaptability and Innovation";
-         font-size: 26px;
-         margin-right: 115px;
+         font-size: 14px;
+         margin-right: 80px;
         }   
     }
     .iconvaluesLeft .icone1:hover{
@@ -231,8 +252,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 90%;  
-        width: 100%; 
+        height: 100%;   
         cursor: pointer;
         img{
          opacity: 0;
@@ -240,9 +260,68 @@
      
         &::after{
          content: "Safety First";
-         font-size: 26px;
-         margin-right: 115px;
+         font-size: 14px;
+        margin-right: 80px;
         }   
     }
+    .iconvaluesRigth .icone4{
+        background-color: #8b1900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;   
+        cursor: pointer;
+        img{
+            width: 70px;
+        }
+    }
+    .iconvaluesRigth .icone4:hover{
+       background-color: #ffff;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 100%;   
+       cursor: pointer;
     
+       img{
+        opacity: 0;
+       }
+    
+       &::after{
+        content: "Integrety and Exelence";
+        font-size: 14px;
+        margin-right: 80px;
+       }
+    }
+    .iconvaluesRigth .icone2{
+        background-color: #8b1900;
+        border-bottom: 1px solid gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        height: 100%;  
+        
+        img{
+            width: 100px;
+        }
+    }
+    .iconvaluesRigth .icone2:hover{
+        background-color: #ffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;   
+        cursor: pointer;
+     
+        img{
+         opacity: 0;
+        }
+     
+        &::after{
+         content: "Quality training & Conformities";
+         font-size: 12px;
+         margin-right: 80px;
+        }
+     }
  }

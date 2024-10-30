@@ -1,15 +1,10 @@
-.souscours{
+.sousnewse{
     width: 100%;
     height: auto;
-    padding-top: 5rem;
+    padding-top: 8rem;
     background-color: #FFFFFF;
 }
-.technicien{
-    margin-top: 10rem;
-    height: 100vh;
-    padding: 0 250px;
-    background-color: #f7fafc;
-}
+
 
 .imagelefte{
     height: 430px;
@@ -19,67 +14,87 @@
     display: flex;
     gap: 2.5rem;
 }
-.techniciens{
-    margin-top: 10rem;
-    height: 100vh;
-    padding: 0 50px;
-    background-color: #ffffff;
+
+.telecomtraining{
+    display: flex;
+    width: 60vw;
+    margin-left: -4rem;
 }
 .imageflex{
     display: flex;
     gap: 10px;
 }
-.technicines{
-    height: 110vh;
-    padding: 0 50px;
-    background-color: #f7fafc;
-}
-@media screen and (max-width: 768px) {
-   .souscours{
-        width: 70%;
-        height: auto;
-        padding-top: 5rem;
-        background-color: #FFFFFF;
-        display: flex;
-        margin-left: -50px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-   }
-   .technicien{
+.techniciens{
+    margin-left: -4rem;
+    height: 100vh;
+    justify-content: center;
     margin-top: 10rem;
-    height: auto;
-    width: 80vw;
-    display: flex;
-    margin-left: 50px;
-    align-items: center;
-    justify-content: center;
-    background-color: #f7fafc;
-   }
-   .bbc{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70vw;
+}
 
-    h1{
-        font-size: 30px;
+@media screen and (max-width: 768px) {
+    .sousnewse{
+        width: 100%;
+        height: auto;
+        padding-top: 8rem;
+        background-color: #FFFFFF;
     }
-   }
+       .bbc{
+        font-size: 12px;
+        margin-left: -50px;
+        height: auto;
+        margin-top: -100px;
+       }
+    
+       .bbc h1{
+        font-size: 40px;
+        margin-left: 60px;
+       }
+       .bbc span:nth-of-type(1){
+        font-size: 15px;
+       }
+       .techskill h1{
+        font-size: 15px;
+        margin-left: 100px;
+       }
+       .colonerigth{
+        margin-top: -50px;
+        
+        p{
+            font-size: 12px;
+        }
+       }
+ 
+
    .imagelefte{
     display: flex;
     margin-left: -40px;
    }
-   .techniciens{
+   
+ 
+   .telecomtraining{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75vw;
+    flex-direction: column;
+    margin-left: -11rem;
+    height: auto;
+    
+    h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;
+    }
+    img{
+      width: 200px;
+      height: 150px;
+      margin-left: 1px;
+    }
+}
+.techniciens{
+    display: none;
    }
-   .technicines{
-        height: auto;
-        background-color: #f7fafc;
-        line-height: 25px;
-   }
+.technicines{
+  display: none;
+}
+
 }
 

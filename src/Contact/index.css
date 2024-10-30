@@ -22,18 +22,3 @@
     margin-top: 35%;
 }
 
-@media all and (max-width: 768px) {
-    .contact{
-        background-position: right;
-        margin-top: 10%;
-        height: 80vh;
-    }
-    .contact .row img{
-        width: 400px;
-        display: flex;
-        margin-top: 35%; 
-    }
-    .souscontact{
-        margin-top: 70%;
-    }
-}

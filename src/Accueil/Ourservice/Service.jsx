@@ -19,13 +19,14 @@ const Service = () => {
         alt="Handshake in a business setting"
       />
     </div>
-    <div className="md:w-1/2 mt-8 md:mt-0">
-      <h1 className="text-4xl font-bold text-blue-900 mb-9 flex justify-end">Our Services</h1>
-      <p className="text-gray-600 mb-9 text-[18px] mt-[5rem]">
+   
+    <div className="flex-col md:flex-row p-8 mx-auto gap-[10rem] mt-8 md:mt-0">
+      <h1 className="text-4xl font-bold text-blue-900 flex justify-end">Our Services</h1>
+      <p className="text-gray-600 mb-9 text-[18px] mt-[3rem]">
         We offer a wide range of training programs tailored to
         the needs of various industries, including:
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-[36vw]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-[38vw]">
         <ServiceItem text="Expert Instructors" />
         <ServiceItem text="Flexible Learning Options" />
         <ServiceItem text="Real-World Training" />
@@ -33,7 +34,7 @@ const Service = () => {
         <ServiceItem text="Travel to provinces possible" />
         <ServiceItem text="Program tailored to your needs and availability" />
       </div>
-    </div>
+      </div>
   </div>
   </div>
   )

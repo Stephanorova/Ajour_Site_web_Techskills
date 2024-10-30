@@ -1,12 +1,4 @@
-.slide{
-    width: 100%;
-    height: 80vh;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-}
+
 .about{
     width: 20vw;
 }
@@ -81,16 +73,67 @@
 }
 
 @media screen and (max-width: 768px) {
-    .slide{
-        width: 100%;
-        height: auto;
-        background-color: black;
-        padding: 30px;
-        margin-top: 5rem;
-        display: flex;
-        margin-left: 20px;
-    }
     .about{
         width: 100%;
+        margin-left: -10px;
+    }
+    .imagedroite img{
+        width: 250px;
+        height: 200px;
+        margin-left: -10px;
+        margin-top: -8rem;
+    }
+    .bouton{
+        width: 140px;
+        height: 30px;
+        border: none;
+        font-size: 12px;
+        background-color: #f9c231;
+        cursor: pointer;
+    }
+
+    .formeColaps{
+        width: 75vw;
+        height: 40vh;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin-top: 20px;
+        position: absolute;
+        background-color: rgba(100, 100, 100, 0.8);
+        top: 0;
+    
+        label{
+            display: none;
+        }
+        input{
+            outline: none;
+            padding-left: 10px;
+            height: 50px;
+            font-size: 12px;
+            width: 180px;
+        }
+        textarea{
+            height: 150px;
+            width: 180px;
+            outline: none;
+            padding: 10px;
+            padding-left: 10px;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            justify-content: end;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            background-color: #000080;
+            color: white;
+        }
     }
 }
