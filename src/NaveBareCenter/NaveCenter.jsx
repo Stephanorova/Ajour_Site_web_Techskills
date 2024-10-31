@@ -14,8 +14,8 @@ const Navbar = () => {
           </div>
           <div className='topBarRight'>
             <div className='socialIcons'>
-             <span><i class="fa fa-phone" style={{color:"brown",fontSize:"30px"}}></i>(261) 38 46  503 32</span>
-              <span><i class="fa fa-envelope" style={{color:"brown",fontSize:"30px"}}></i>administration@tech-skills.co</span>
+             <span><i class="fa fa-phone" ></i>(261) 38 46  503 32</span>
+              <span><i class="fa fa-envelope" ></i>administration@tech-skills.co</span>
             </div>
           </div>
         </div>
