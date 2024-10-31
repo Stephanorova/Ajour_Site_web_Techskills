@@ -24,32 +24,116 @@
 }
 .referanceAdverb h1{
     color: #000080;
-    font-size: 45px;
+    font-size: 35px;
     
 }
 .referanceAdverb span{
-    color: #000080;
-    font-size: 18px;
+    color: rgb(63, 63, 63);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .slids{
     width: 100%;
-    padding: 0 250px;
-}
-.informations{
-    text-align: center;
     display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
- }
+    align-items: center;
+    justify-content: center;
+}
  .informations img{
-    padding: 30px;
+    padding: 20px;
     font-size: 14px;
     font-weight: 500;
-    height: 200px;
-    width: 220px;
+    height: 150px;
+    width: 200px;
+    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 10px;
+
+    input{
+        width: 450px;
+        height: 50px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        background-color: rgb(172, 172, 172);
+        padding-left: 20px;
+        color: white;
+        border-radius: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    label{
+        color: white;
+        font-size: 15px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  
+    .referanceAdverb h1{
+        color: #000080;
+        font-size: 30px;
+        
+    }
+    .referanceAdverb span{
+        color: rgb(63, 63, 63);
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .informations img{
+         height: 70px;
+         width: 100%;
+         display: flex;
+         margin-left: -5px;
+    }
+    .form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        width: 250px;
+        height: 50px;
+        background-color: rgb(172, 172, 172);
+        border-radius: 10px;
+    
+        input{
+            width: 250px;
+            height: 49px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            padding-left: 20px;
+            color: white;
+            border-radius: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    
+        label{
+            color: white;
+            font-size: 15px;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }

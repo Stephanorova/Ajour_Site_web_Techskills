@@ -2,266 +2,218 @@
 .bonneraison{
     width: 100%;
     height: 110vh;
-    padding: 30px;
     background-color: #e4e4e4;
+    justify-content: center;
 }
-
 .menue{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 1rem;
-    margin-top: 5rem;
+    position: relative;
+    padding-top: 15rem;
 }
-
-.menuLeft{
-    flex: 0;
-    height: 52vh;
-    margin-top: 55px;
-    margin-left: 50px;
-    display: flex;
-    align-items: center;
-
-.news{
-    background-color: brown;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
+.newsmenu{
     width: 200px;
-    height: 53vh;
-    cursor: pointer;
-    border-radius: 10px;
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-   
-}
-label{
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    justify-content: center;
-    cursor: pointer;
-    border: 1px solid white;
-    border-radius: 50%;  
-    position: absolute;
-    margin-top: 15%;
-
-    i{
-        margin-top: 15px;
-    }
-
-}
-}
-.menuCenter{
-    flex: 0;
-    display: flex;
-    margin-top: 53px;
-    gap: 1rem;
-}
-.menucentertop{
+    height: 50vh;
+    background-color: #8b1900;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-}
-.menucenterbottom{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-.menuCenter .contactes{
-    width: 190px;
-    height: 180px;
-    color: #fff;
-    display: flex;
-    cursor: pointer;
-    flex-direction: column;
-    padding: 30px;
     justify-content: space-between;
-    background-color: #000233;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    border-radius: 5px;
+    color: white ;
+    cursor: pointer;
 
     label{
-        width: 20px;
-        height: 20px;
-        text-align: center;
-        justify-content: center;
-        cursor: pointer;
-        margin-left: 7rem;
+        width: 30px;
+        height: 30px;
         border: 1px solid white;
         border-radius: 50%;
-        background-color: #fff;
-       
-    }
-    i{
-        color: black;
-        font-size: 12px;
-    }
-}
-.menuCenter .training{
-    width: 190px;
-    height: 180px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    justify-content: space-between;
-    cursor: pointer;
-    background-color: #f9c231;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-
-    label{
-        width: 20px;
-        height: 20px;
-        text-align: center;
         justify-content: center;
-        margin-left: 7rem;
-        cursor: pointer;
-        border: 1px solid #000080;
-        border-radius: 50%;
-        background-color: #000080;
+        display: flex;
 
-    }
-    i{
-        color: #f9c231;
-        font-size: 12px;
+        i{
+           margin-top: 5px;
+        }
     }
 }
-.menuCenter .calandare{
-    width: 190px;
-    height: 180px;
-    cursor: pointer;
-    color: #000233;
+
+.menucenter{
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    justify-content: space-between;
-    background-color: #ffffff;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-
-    label{
-        width: 20px;
-        height: 20px;
-        text-align: center;
-        justify-content: center;
-        margin-left: 7rem;
-        cursor: pointer;
-        border: 1px solid #ffffff;
-        border-radius: 50%;
-        background-color: black;
-
-    }
-    i{
-        color: #ffffff;
-        font-size: 12px;
-    }
+    gap: 1.6rem;
 }
-.menuCenter .view{
-    width: 190px;
-    height: 180px;
-    color: #fff;
+.hautemenu{
     display: flex;
-    cursor: pointer;
-    flex-direction: column;
-    padding: 30px;
-    justify-content: space-between;
-    background-color: #000080;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-
-    label{
-        width: 20px;
-        height: 20px;
-        text-align: center;
-        justify-content: center;
-        margin-left: 7rem;
-        cursor: pointer;
-        border: 1px solid #000080;
-        border-radius: 50%;
-        background-color: #fff;
-
-    }
-    i{
-        color: #000080;
-        font-size: 12px;
-    }
+    gap: 1rem;
 }
-.menuRigth{
-    flex: 0;
-    margin-top: 50px;
-    margin-right: 60px;
-    height: 52vh;
-}
-.blockmenu{
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-}
-
-.blockmenu .blog{
+.contact{
     width: 200px;
-    height: 140px;
-    color: #fff;
+    height: 23vh;
+    background-color: #000233;
     display: flex;
-    cursor: pointer;
     flex-direction: column;
-    padding: 30px;
     justify-content: space-between;
-    background-color: #000080;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
 
-    label{
-        width: 20px;
-        height: 20px;
-        text-align: center;
-        justify-content: center;
-        margin-left: 8rem;
-        cursor: pointer;
-        border: 1px solid #000080;
+    span{
+        width: 15px;
+        height: 15px;
         border-radius: 50%;
+        display: flex;
+        align-items: center;
         background-color: #fff;
-
+        color: black;
+        justify-content: center;
+        border: 1px solid white;
+        margin-left: 8rem;
     }
-    i{
-        color: #000080;
-        font-size: 12px;
+}
+.view{
+    width: 200px;
+    height: 23vh;
+    background-color: #f9c231;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+
+    span{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        color: black;
+        justify-content: center;
+        border: 1px solid white;
+        margin-left: 8rem;
     }
 }
 
-.blockmenu .story{
+.basmenu{
+    display: flex;
+    gap: 1rem;
+}
+.calandarsmenu{
+    width: 200px;
+    height: 23vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+
+    span{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        color: black;
+        justify-content: center;
+        border: 1px solid black;
+        margin-left: 8rem;
+    }
+}
+.viewsmenu{
+    width: 200px;
+    height: 23vh;
+    background-color: #000080;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+
+    span{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        color: black;
+        justify-content: center;
+        border: 1px solid white;
+        margin-left: 8rem;
+    }
+}
+.menuleftes{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.logmenu{
+    width: 200px;
+    height: 15vh;
+    background-color: #000080;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 13px;
+    cursor: pointer;
+
+    span{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        color: black;
+        justify-content: center;
+        border: 1px solid white;
+        margin-left: 8rem;
+    }
+}
+.historymenu{
     background: url("../../../public/image/menuback.jpg");
     height: 220px;
     width: 200px;
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
-    color: #fff;
-    display: flex;
-    cursor: pointer;
-    flex-direction: column;
+    width: 200px;
+    height: 32vh;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
 
-    label{
-        width: 20px;
-        height: 20px;
-        text-align: center;
-        justify-content: center;
-        margin-left: 8rem;
-        cursor: pointer;
-        border: 1px solid #000080;
+    span{
+        width: 15px;
+        height: 15px;
         border-radius: 50%;
+        display: flex;
+        align-items: center;
         background-color: #fff;
-
-    }
-    i{
-        color: #000080;
-        font-size: 12px;
+        color: black;
+        justify-content: center;
+        border: 1px solid white;
+        margin-left: 8rem;
     }
 }
 .slide{
@@ -312,248 +264,80 @@ label{
     }
     .menue{
         display: flex;
-        flex-direction: column;
-        margin-top: 2rem;
-    }
-    .menuLeft{
-        flex: 0;
-        height: auto;
-        display: flex;
-        margin-left: -10px;
-    
-    .news{
-        background-color: brown;
-        display: flex;
-        flex-direction: column;
-        padding: 30px;
-        width: 300px;
-        height: 120px;
-        font-size: 12px;
-        cursor: pointer;
-        border-radius: 10px;
-        color: #fff;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-       
-    }
-    label{
-        width: 30px;
-        height: 30px;
-        text-align: center;
         justify-content: center;
-        cursor: pointer;
-        border: 1px solid white;
-        border-radius: 50%;  
-        position: absolute;
-        margin-top: 8%;
-    
-        i{
-            margin-top: 8px;
-        }
-    
-    }
-    }
-    .menuCenter{
-        flex: 0;
-        display: flex;
         flex-direction: column;
-        gap: 1rem;
-        margin-top: -0.2rem;
-        margin-left: -0.8rem;
-    }
-    .menuCenter .contactes{
-        width: 300px;
-        height: 120px;
-        color: #fff;
-        display: flex;
-        cursor: pointer;
-        flex-direction: column;
+        gap: 0.5rem;
+        position: relative;
         padding: 30px;
-        justify-content: space-between;
-        background-color: #000233;
-        border-radius: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-    
-        label{
-            width: 20px;
-            height: 20px;
-            text-align: center;
-            justify-content: center;
-            cursor: pointer;
-            margin-left: 14rem;
-            border: 1px solid white;
-            border-radius: 50%;
-            background-color: #fff;
-           
-        }
-        i{
-            color: black;
-            font-size: 12px;
-        }
     }
-    .menuCenter .training{
-        width: 300px;
-        height: 120px;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        padding: 30px;
-        justify-content: space-between;
-        cursor: pointer;
-        background-color: #f9c231;
-        border-radius: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-    
-        label{
-            width: 20px;
-            height: 20px;
-            text-align: center;
-            justify-content: center;
-            margin-left: 14rem;
-            cursor: pointer;
-            border: 1px solid #000080;
-            border-radius: 50%;
-            background-color: #000080;
-    
-        }
-        i{
-            color: #f9c231;
-            font-size: 12px;
-        }
+    .newsmenu{
+        width: 310px;
+        height: 20vh;
     }
-    .menuCenter .calandare{
-        width: 300px;
-        height: 120px;
-        cursor: pointer;
-        color: #000233;
-        display: flex;
-        flex-direction: column;
-        padding: 30px;
-        justify-content: space-between;
-        background-color: #ffffff;
-        border-radius: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-    
-        label{
-            width: 20px;
-            height: 20px;
-            text-align: center;
-            justify-content: center;
-            margin-left: 14rem;
-            cursor: pointer;
-            border: 1px solid #ffffff;
-            border-radius: 50%;
-            background-color: black;
-    
-        }
-        i{
-            color: #ffffff;
-            font-size: 12px;
-        }
+ .hautemenu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+ }
+ .basmenu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+ }
+ .menucenter{
+    gap: 0.5rem;
+ }
+ .contact{
+    width: 310px;
+    height: 20vh;
+
+    span{
+        margin-left: 15rem;
     }
-    .menuCenter .view{
-        width: 300px;
-        height: 120px;
-        color: #fff;
-        display: flex;
-        cursor: pointer;
-        flex-direction: column;
-        padding: 30px;
-        justify-content: space-between;
-        background-color: #000080;
-        border-radius: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-    
-        label{
-            width: 20px;
-            height: 20px;
-            text-align: center;
-            justify-content: center;
-            margin-left: 14rem;
-            cursor: pointer;
-            border: 1px solid #000080;
-            border-radius: 50%;
-            background-color: #fff;
-    
-        }
-        i{
-            color: #000080;
-            font-size: 12px;
-        }
+}
+.view{
+    width: 310px;
+    height: 20vh;
+
+    span{
+        margin-left: 15rem;
     }
-    .menuRigth{
-        flex: 0;
-        height: auto;
-        display: flex;
-        margin-left: 40px;
-        margin-top: -5px;
+}
+.calandarsmenu{
+    width: 310px;
+    height: 20vh;
+
+    span{
+        margin-left: 15rem;
     }
-    .blockmenu{
-        display: flex;
-        flex-direction: column;
+}
+.viewsmenu{
+    width: 310px;
+    height: 20vh;
+
+    span{
+        margin-left: 15rem;
     }
-    .blockmenu .blog{
-        width: 300px;
-        height: 120px;
-        color: #fff;
-        display: flex;
-        cursor: pointer;
-        flex-direction: column;
-        padding: 30px;
-        justify-content: space-between;
-        background-color: #000080;
-        border-radius: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-    
-        label{
-            width: 20px;
-            height: 20px;
-            text-align: center;
-            justify-content: center;
-            margin-left: 14rem;
-            cursor: pointer;
-            border: 1px solid #000080;
-            border-radius: 50%;
-            background-color: #fff;
-    
-        }
-        i{
-            color: #000080;
-            font-size: 12px;
-        }
+}
+.menuleftes{
+    gap: 0.5rem;
+}
+.logmenu{
+    width: 310px;
+    height: 20vh;
+
+    span{
+        margin-left: 15rem;
     }
-    .blockmenu .story{
-        background: url("../../../public/image/menuback.jpg");
-        width: 300px;
-        height: 120px;
-        background-position: center;
-        background-size: cover;
-        border-radius: 10px;
-        color: #fff;
-        display: flex;
-        cursor: pointer;
-        flex-direction: column;
-        padding: 30px;
-        justify-content: space-between;
-        font-family: Arial, Helvetica, sans-serif;
-    
-        label{
-            width: 20px;
-            height: 20px;
-            text-align: center;
-            justify-content: center;
-            margin-left: 14rem;
-            cursor: pointer;
-            border: 1px solid #000080;
-            border-radius: 50%;
-            background-color: #fff;
-    
-        }
-        i{
-            color: #000080;
-            font-size: 12px;
-        }
+}
+.historymenu{
+    width: 310px;
+    height: 20vh;
+
+    span{
+        margin-left: 15rem;
     }
+}
     .slide{
         height: auto;
         background-color: #ffffff;
@@ -580,7 +364,5 @@ label{
     align-items: center;
     justify-content: center;
 }
-.referenc{
-    display: none;
-}
+
 }

@@ -1,31 +1,19 @@
 import "./index.css"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import { data4 } from "./data4";
+import { ChevronRight } from "lucide-react";
 
 
 const Referance = () => {
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 400,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        autoplay:true,
-        appendDots: (dots)=>{
-          return <ul style={{margin:"-10px"}}>{dots}</ul>
-        }
-      };
+
 
 
   return (
     <div className="referances">
         <div className="referanceAdverb">
             <h1>Reference</h1>
-            <span>Those who choose Us.</span>
+            <span>Want to know more about our partners?</span>
+            <span>Get our catalog by email now</span>
             <div className="slids">
-            <Slider {...settings}>
             {
             data4.map(index =>(   
              <section className='informations' key={index.id}>
@@ -35,8 +23,11 @@ const Referance = () => {
             )
           )
            }
-            </Slider>
             </div>
+            <form className="form">
+               <input type="text" />
+               <label ><ChevronRight/></label>
+            </form>
         </div>
     </div>
   )
