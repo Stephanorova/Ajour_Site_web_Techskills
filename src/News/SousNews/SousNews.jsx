@@ -155,7 +155,7 @@ const SousNews = () => {
                   <img 
                     src="/image/avecvazaha.jpg" 
                     alt="Main meeting" 
-                    className="w-[380px] h-[170px]"
+                    className="imageNokia"
                   />
                
 
@@ -165,14 +165,14 @@ const SousNews = () => {
                     <img 
                       src="/image/menuback.jpg" 
                       alt="Team meeting 1" 
-                      className="w-[185px] h-[110px]"
+                      className="imageNokiabas"
                     />
                   </div>
                   <div className="flex-1">
                     <img 
                       src="/image/mivory.jpg" 
                       alt="Team meeting 2" 
-                      className="w-[185px] h-[110px]"
+                      className="imageNokiabas"
                     />
                   </div>
                 </div>
@@ -192,7 +192,9 @@ const SousNews = () => {
             </div>
 
             {/* Colonne droite - Contenu */}
-            <div className="md:w-[500px] pr-4 space-y-[2.5rem] ml-[2rem]">
+            <div className="largeurletre">
+            <div className="w-[500px] pr-4 space-y-[2.5rem] ml-[2rem]">
+                
                 <p className="text-gray-800">
                   October 08, 2024 - TechSkills Learning Institute is pleased to announce that Nokia, a prominent global provider of telecommunications equipment and services, has completed an audit of our training programs and approved our certification process.
                 </p>
@@ -208,6 +210,7 @@ const SousNews = () => {
                 <p className="text-gray-800">
                   "This approval reflects our dedication to providing the highest standards of training and certification for professionals in Madagascar."
                 </p>
+                </div>
               </div>
             </div>
           </div>

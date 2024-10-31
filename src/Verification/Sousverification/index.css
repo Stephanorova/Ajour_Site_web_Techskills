@@ -45,7 +45,6 @@
         width: 100%;
         height: auto;
         background-color: #ffffff;
-        clip-path: polygon(0 10%, 100% 0, 100% 100%,0 100%);
     
         .verificationspan{
             font-size: 12px;
@@ -55,11 +54,13 @@
     .titrehaute{
         display: flex;
         flex-direction: column;
+        width: 100vw;
         margin-top: 10%;
-        margin-left: -180px;
+        margin-left: -100px;
+        padding: 30px;
     
         h1{
-            font-size: 15px;
+            font-size: 14px;
             color: #000080;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
@@ -76,7 +77,9 @@
     
             Button{
                 display: flex;
-                margin-left: 20rem;
+                margin-left: 4rem;
+                height: 30px;
+                font-size: 12px;
             }
         }
     

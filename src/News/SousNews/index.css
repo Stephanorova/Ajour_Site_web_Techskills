@@ -30,6 +30,14 @@
     justify-content: center;
     margin-top: 10rem;
 }
+.imageNokia{
+    width: 380px;
+    height: 170px;
+}
+.imageNokiabas{
+    width: 185px;
+    height: 110px;
+}
 
 @media screen and (max-width: 768px) {
     .sousnewse{
@@ -90,10 +98,29 @@
     }
 }
 .techniciens{
-    display: none;
+     margin-left: 4px;
+     height: auto;
+     font-size: 12px;
+     width: 100%;
    }
 .technicines{
-  display: none;
+   font-size: 12px;
+   width: 100%;
+   margin-left: -5rem;
+}
+.imageNokia{
+    width: 300px;
+    height: 140px;
+}
+.imageNokiabas{
+    width: 145px;
+    height: 90px;
+}
+.date{
+   display: none;
+}
+.largeurletre{
+    display: none;
 }
 
 }

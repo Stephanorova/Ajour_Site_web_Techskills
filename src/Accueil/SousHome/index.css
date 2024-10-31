@@ -327,7 +327,8 @@ label{
         flex-direction: column;
         padding: 30px;
         width: 300px;
-        height: 30vh;
+        height: 120px;
+        font-size: 12px;
         cursor: pointer;
         border-radius: 10px;
         color: #fff;
@@ -336,18 +337,18 @@ label{
        
     }
     label{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         text-align: center;
         justify-content: center;
         cursor: pointer;
         border: 1px solid white;
         border-radius: 50%;  
         position: absolute;
-        margin-top: 15%;
+        margin-top: 8%;
     
         i{
-            margin-top: 10px;
+            margin-top: 8px;
         }
     
     }
@@ -362,7 +363,7 @@ label{
     }
     .menuCenter .contactes{
         width: 300px;
-        height: 180px;
+        height: 120px;
         color: #fff;
         display: flex;
         cursor: pointer;
@@ -392,7 +393,7 @@ label{
     }
     .menuCenter .training{
         width: 300px;
-        height: 180px;
+        height: 120px;
         color: black;
         display: flex;
         flex-direction: column;
@@ -422,7 +423,7 @@ label{
     }
     .menuCenter .calandare{
         width: 300px;
-        height: 180px;
+        height: 120px;
         cursor: pointer;
         color: #000233;
         display: flex;
@@ -452,7 +453,7 @@ label{
     }
     .menuCenter .view{
         width: 300px;
-        height: 180px;
+        height: 120px;
         color: #fff;
         display: flex;
         cursor: pointer;
@@ -493,7 +494,7 @@ label{
     }
     .blockmenu .blog{
         width: 300px;
-        height: 180px;
+        height: 120px;
         color: #fff;
         display: flex;
         cursor: pointer;
@@ -524,7 +525,7 @@ label{
     .blockmenu .story{
         background: url("../../../public/image/menuback.jpg");
         width: 300px;
-        height: 180px;
+        height: 120px;
         background-position: center;
         background-size: cover;
         border-radius: 10px;
